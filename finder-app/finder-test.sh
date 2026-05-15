@@ -47,10 +47,6 @@ then
     fi
 fi
 
-# 1. Clean any previous build artifacts and compile natively
-echo "Removing the old writer utility and compiling as a native application"
-make clean
-make
 
 # 2. Use your "writer" utility instead of "writer.sh"
 for i in $( seq 1 $NUMFILES)
