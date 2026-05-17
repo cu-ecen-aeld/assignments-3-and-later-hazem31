@@ -68,8 +68,7 @@ cd "$OUTDIR"
 if [ ! -d "${OUTDIR}/busybox" ]
 then
 git clone git://busybox.net/busybox.git
-    cd busybox
-    git checkout ${BUSYBOX_VERSION}
+
     # TODO:  Configure busybox
     cd busybox
     git checkout ${BUSYBOX_VERSION}
